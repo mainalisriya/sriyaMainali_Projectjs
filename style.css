@@ -1,0 +1,33 @@
+body{
+    background-color: blueviolet;
+}
+
+.piano{
+    display: flex;
+    margin: 300px;
+}
+
+.white{
+    background-color: white;
+    width:100px;
+    height:360px;
+    border:1px solid black
+    
+}
+.white.active{
+    background-color: grey;
+}
+.black{
+    background-color:black;
+    width:70px;
+    height:190px;
+    margin-left: -40px;
+    margin-right:-40px ;
+    z-index: 1;
+    
+    
+}
+
+.black.active{
+    background-color: grey;
+}
